@@ -18,6 +18,7 @@ import feed17August from "./assets/Feed_IG_Orderan_17_August.png";
 import kajianPelecehan from "./assets/Kajian_Pelecehan_Seksual_Verbal_di_Kampus.jpeg";
 import kajianSumselResah from "./assets/Kajian_Sumsel_Resah.jpeg";
 import logo from "./assets/logo.webp";
+import qrBem from "./assets/qrbem.webp";
 
 // ===============================
 // INTERFACE
@@ -277,21 +278,23 @@ function ContactSection() {
       </div>
 
       <div className="contact-section__details">
+        {/* =========================
+            QR CODE BEM POLSRI
+        ========================== */}
+
         <div className="qr-placeholder" aria-label="QR Code BEM POLSRI">
-          <div className="qr-placeholder__pattern">
-            <span />
-            <span />
-            <span />
-            <span />
-            <span />
-            <span />
-            <span />
-            <span />
-            <span />
-          </div>
+          <img
+            src={qrBem}
+            alt="QR Code BEM POLSRI"
+            className="qr-placeholder__image"
+          />
 
           <small>QR BEM POLSRI</small>
         </div>
+
+        {/* =========================
+            CONTACT DETAILS
+        ========================== */}
 
         <div className="contact-section__copy">
           <p className="contact-section__label">
@@ -406,10 +409,10 @@ function App() {
             </p>
           </div>
 
-          {/* FEATURED */}
+          {/* FEATURED KAJIAN */}
           <FeaturedKajian kajian={kajianList[0]} />
 
-          {/* OTHER KAJIAN */}
+          {/* KAJIAN LAINNYA */}
           <div className="cards-grid">
             {kajianList.slice(1).map((kajian, index) => (
               <KajianCard
