@@ -191,7 +191,12 @@ function KajianCard({
           role="button"
           tabIndex={0}
           onClick={() => onSelect(kajian.id)}
-          onKeyDown={(e) => e.key === "Enter" && onSelect(kajian.id)}
+          onKeyDown={(e) => {
+            if (e.key === "Enter" || e.key === " ") {
+              e.preventDefault();
+              onSelect(kajian.id);
+            }
+          }}
           className="relative overflow-hidden aspect-[16/10] bg-[#171713] shadow-inner cursor-pointer"
           title={`Lihat detail arsip ${kajian.title}`}
         >
@@ -226,7 +231,12 @@ function KajianCard({
             role="button"
             tabIndex={0}
             onClick={() => onSelect(kajian.id)}
-            onKeyDown={(e) => e.key === "Enter" && onSelect(kajian.id)}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault();
+                onSelect(kajian.id);
+              }
+            }}
             className="font-bold text-lg md:text-xl text-[#171713] leading-snug tracking-tight mb-2 line-clamp-2 min-h-[3.25rem] cursor-pointer hover:text-[#c21d1f] transition-colors"
           >
             {kajian.title}
