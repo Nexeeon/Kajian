@@ -182,7 +182,7 @@ export const kajianList: Kajian[] = [
   {
     id: "sumsel-resah-edisi-awal",
     category: "KAJIAN SOSIAL DAERAH",
-    title: "SUMSEL RESAH (Edisi Kajian Awal)",
+    title: "SUMSEL RESAH - Sumsel Darurat Keadilan",
     subtitle: "Menakar Dinamika Sosial Ekonomi dan Kebijakan Daerah Sumatera Selatan",
     description:
       "Menyoroti keresahan masyarakat Sumatera Selatan dan berbagai persoalan mendasar yang membutuhkan perhatian serta respons nyata dari pemangku kebijakan daerah.",
