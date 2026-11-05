@@ -457,7 +457,6 @@ export default function App() {
       {/* MAIN CONTAINER */}
       <main className="main-content min-h-screen">
         <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 md:py-12 space-y-16 md:space-y-24">
-          
           {/* TAMPILAN HALAMAN DETAIL KAJIAN (JIKA ADA KAJIAN AKTIF) */}
           {activeKajianId ? (
             renderDetailKajian()
@@ -530,7 +529,9 @@ export default function App() {
                     >
                       ARSIP
                       <br />
-                      <em className="font-serif font-normal italic text-[#c21d1f]">KAJIAN.</em>
+                      <em className="font-serif font-normal italic text-[#c21d1f]">
+                        KAJIAN.
+                      </em>
                     </h2>
                   </div>
 
@@ -600,7 +601,6 @@ export default function App() {
               © 2026 BEM POLSRI. All Rights Reserved.
             </p>
           </footer>
-
         </div>
       </main>
     </div>
