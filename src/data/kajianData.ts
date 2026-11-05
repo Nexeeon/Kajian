@@ -20,7 +20,7 @@ export const kajianList: Kajian[] = [
   {
     id: "sumsel-resah-seruan-aksi",
     category: "KAJIAN SOSIAL & GERAKAN",
-    title: "Sumsel Resah (Seruan Aksi)",
+    title: "Seruan Aksi Sumsel Resah",
     subtitle: "Konsolidasi Gerakan Mahasiswa dan Rakyat Menuntut Keadilan Sosial di Sumatera Selatan",
     description:
       "Seruan aksi konsolidasi mahasiswa dan aliansi masyarakat sipil menyikapi eskalasi keresahan sosial, ketimpangan ekonomi, serta tuntutan transparansi kebijakan publik di Sumatera Selatan.",
@@ -30,7 +30,7 @@ export const kajianList: Kajian[] = [
     href: "https://drive.google.com/file/d/144cj2wzBn_mZ_q2wiZWWSSpP7LFQtsHu/view",
     isNew: true,
     metadata: {
-      date: "April 2026",
+      date: "Mei 2026",
       organizer: "Aliansi BEM & Mahasiswa se-Sumatera Selatan",
       location: "Sumatera Selatan",
     },
@@ -86,7 +86,7 @@ export const kajianList: Kajian[] = [
   {
     id: "andrie-yunus-mimbar-bebas",
     category: "KAJIAN ADVOKASI & HAK SUARA",
-    title: "Kajian Andrie Yunus (Mimbar Bebas Sumsel Resah)",
+    title: "Mimbar Bebas Sumsel Resah - Kajian Andrie Yunus",
     subtitle: "Materi Mimbar Bebas: Menjaga Nalar Kritis dan Menolak Pembungkaman Suara Mahasiswa",
     description:
       "Materi mimbar bebas, pandangan kritis terhadap kebijakan pemerintah daerah, serta dokumentasi dan pedoman aksi Mimbar Bebas Sumsel Resah di Persimpangan DPRD Prov. Sumsel.",
@@ -121,7 +121,7 @@ export const kajianList: Kajian[] = [
   {
     id: "pelecehan-seksual-verbal-di-kampus",
     category: "KAJIAN KAMPUS",
-    title: "PELECEHAN SEKSUAL VERBAL DI KAMPUS",
+    title: "KAMPUS DARURAT PERLINDUNGAN - PELECEHAN SEKSUAL VERBAL DI KAMPUS",
     subtitle: "Menciptakan Ruang Pendidikan yang Aman, Inklusif, dan Berintegritas",
     description:
       "Mengulas persoalan pelecehan seksual verbal di lingkungan kampus serta pentingnya menciptakan ruang pendidikan yang aman dan berintegritas bagi seluruh civitas akademika.",
@@ -152,7 +152,7 @@ export const kajianList: Kajian[] = [
   {
     id: "17-agustus-bukan-sekedar-tanggal",
     category: "KAJIAN KEBANGSAAN",
-    title: "17 AGUSTUS 1945 BUKAN SEKEDAR TANGGAL",
+    title: "17 AGUSTUS - Kilas Balik Perjalanan Indonesia Menuju Kemerdekaan",
     subtitle: "Refleksi Kemerdekaan dan Tugas Sejarah Generasi Muda Hari Ini",
     description:
       "Kilas balik perjalanan Indonesia menuju kemerdekaan dan refleksi mendalam terhadap makna kedaulatan bagi generasi hari ini di tengah tantangan global.",
